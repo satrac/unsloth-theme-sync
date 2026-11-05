@@ -1,5 +1,7 @@
 # unsloth-theme-sync
 
+[![build](https://github.com/satrac/unsloth-theme-sync/actions/workflows/build.yml/badge.svg)](https://github.com/satrac/unsloth-theme-sync/actions/workflows/build.yml)
+
 Make [Unsloth Desktop](https://unsloth.ai/) follow your desktop's light/dark
 mode — including **live switching** when KDE Plasma changes its color scheme at
 sunrise/sunset.
@@ -56,6 +58,8 @@ sudo dnf install gcc make pkgconf-pkg-config gtk3-devel
 ## Build and install
 
 ```sh
+git clone https://github.com/satrac/unsloth-theme-sync.git
+cd unsloth-theme-sync
 make
 make install          # installs to ~/.local/lib/unsloth-theme-module.so
 ```
