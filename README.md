@@ -159,6 +159,9 @@ UNSLOTH_APPIMAGE_WEBKIT=host \
 The module changes only the process it is loaded into. It does not modify
 dconf, GTK `settings.ini`, or other applications.
 
+For a function-by-function walkthrough of the module, see
+[docs/code-walkthrough.md](docs/code-walkthrough.md).
+
 ## Limitations
 
 - GTK3 only (Unsloth Desktop uses `webkit2gtk-4.1` / GTK3).
